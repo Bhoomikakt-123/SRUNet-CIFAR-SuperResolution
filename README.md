@@ -8,23 +8,26 @@ SRUNet-CIFAR is a deep learning-based super-resolution model built using PyTorch
 - Evaluated using PSNR and SSIM metrics.
 - Visual comparison between input, ground truth, and predicted output.
 
-- 
+  
 ## ⚙️ Setup
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/SRUNet-CIFAR-SuperResolution.git
-cd SRUNet-CIFAR-SuperResolution
+    ```bash
+    git clone https://github.com/yourusername/SRUNet-CIFAR-SuperResolution.git
+    cd SRUNet-CIFAR-SuperResolution
 
 ### 2. Set Up a Virtual Environment (Recommended)
-python -m venv venv
-source venv/bin/activate   # On Windows use: venv\\Scripts\\activate
+     ```bash
+    python -m venv venv
+    source venv/bin/activate   # On Windows use: venv\\Scripts\\activate
 
 ### 3. Install Dependencies
-pip install -r requirements.txt
+     ```bash
+    pip install -r requirements.txt
 
 🚀 Run the Script
-python src/srunet_cifar.py
+     ```bash
+    python src/srunet_cifar.py
 
 🖼️ Sample Output
 The model will be trained for 5 epochs and the result will be saved as:
