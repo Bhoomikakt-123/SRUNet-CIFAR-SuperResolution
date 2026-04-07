@@ -21,7 +21,7 @@ SRUNet-CIFAR is a deep learning-based super-resolution model built using PyTorch
     python -m venv venv
     source venv/bin/activate   # On Windows use: venv\\Scripts\\activate
 
-### 3. Install Dependencies
+### 3.. Install Dependencies
      ```bash
     pip install -r requirements.txt
 
